@@ -1,0 +1,102 @@
+/* General Body Styles */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 10px;
+    color: #3C3C3C;
+    /* Charcoal */
+    background-color: #F6E7D8;
+    /* Muted Beige */
+}
+
+/* Header Styles */
+header {
+    background-color: #E2725B;
+    /* Terracotta */
+    color: #FFFFFF;
+    /* White */
+    padding: 1em 0;
+    text-align: center;
+}
+
+.header-content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+}
+
+.header-logo {
+    height: 50px;
+    width: auto;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 1.8em;
+}
+
+/* Navigation Links */
+nav a {
+    color: #FDF4E3;
+    /* Cream */
+    text-decoration: none;
+    margin: 0 10px;
+    font-weight: bold;
+}
+
+nav a:hover {
+    color: #014737;
+    /* Deep Forest Green */
+    text-decoration: underline;
+}
+
+/* Section Titles */
+section h2 {
+    color: #E2725B;
+    /* Terracotta */
+    border-bottom: 2px solid #014737;
+    /* Deep Forest Green */
+    padding-bottom: 5px;
+}
+
+/* Buttons */
+.carousel-btn {
+    background-color: rgba(0, 0, 0, 0.5);
+    /* Semi-transparent black */
+    color: #FFFFFF;
+    /* White */
+    border: none;
+    border-radius: 50%;
+}
+
+.carousel-btn:hover {
+    background-color: #E2725B;
+    /* Terracotta */
+}
+
+/* Grid Images */
+.grid-container a {
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.grid-container a:hover {
+    transform: scale(1.05);
+    box-shadow: 0 6px 10px rgba(0, 0, 0, 0.2);
+}
+
+/* Footer */
+footer {
+    background-color: #014737;
+    /* Deep Forest Green */
+    color: #FDF4E3;
+    /* Cream */
+    text-align: center;
+    padding: 1em 0;
+    margin-top: 20px;
+    font-size: 0.9em;
+}
